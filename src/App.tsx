@@ -6,7 +6,7 @@ import UserPage from "./pages/UserPage";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen flex flex-col justify-center bg-gray-800">
         <BrowserRouter>
           <h1>React-Router-DynamicRoutingApp</h1>
           <Routes>
