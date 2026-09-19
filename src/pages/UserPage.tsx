@@ -6,7 +6,9 @@ const UserPage = () => {
 
   return (
     <div>
-      <p>User ID: {id}</p>
+      <p>
+        User ID: <span className="text-xl font-semibold text-blue-600">{id}</span>
+      </p>
     </div>
   );
 };
